@@ -1,0 +1,359 @@
+topics:
+  
+  # Pset_ConstructionOccurence_issue_449:
+  #   description: Fixing Typo and capitalization (proposed by Sergej)
+  #   commits:
+  #     - f2131c8
+  # IfcQuantityCount_issue_167:
+  #   description: Add Q_NUMBER to IfcSimplePropertyTemplateTypeEnum
+  #   commits:
+  #     - d42ac7a
+  #     - ef0f27d
+  # GeometryValidation_issue_240:
+  #   description: Geometry validation parameters as QTO
+  #   commits:
+  #     - 2c4bb37
+  #     - c0b7ad2
+  #     - d42eeae:
+  #       - file: Qto_BodyGeometryValidation.xml
+  # CastingMethod_issue_42:
+  #   commits:
+  #     - 54f964f
+  #     - 46d926d:
+  #       - file: Pset_ConcreteElementGeneral.xml
+  # PredefinedType_Consistency_issue_129:
+  #   commits:
+  #     - d42eeae:
+  #       - hunk:
+  #         - Stratum
+  #         - Plant
+  #         - Vegetation
+  # Pset_CableSegmentOccurrence_PowerLoss_issue_126:
+  #   commits:
+  #     - f757d0c
+  # Property_name_case_consistency_issue_300:
+  #   commits:
+  #     - e29b70f
+  #     - "6353698"
+  # Rule_and_function_updates_issue_428:
+  #   commits:
+  #     - 0ff90f0
+  #     - 60a4f74
+  # Define_and_assign_PSET_MATERIALDRIVEN_and_PSET_PROFILEDRIVEN_issue_110:
+  #   commits:
+  #     - 541569b
+  # RAILWAYTRACK_and_RAILWAYLINE_+_pset_association_issue_305:
+  #   commits:
+  #     - fea2e0b
+  # TOPPING_issue_406:
+  #   commits:
+  #     - 6fbfa7a
+  # Where_rule_fixes_for_IfcSectionedSurface_issue_259_issue_404:
+  #   commits:
+  #     - 0aa687d
+  #     - 0aef974
+  # IfcDerivedUnit_Name_issue_46:
+  #   commits:
+  #     - 8d2ceba
+  # IfcDiscreteAccessory_FILLER_issue_60:
+  #   commits:
+  #     - 5092d41
+  # Add_FLASHING_issue_59:
+  #   commits:
+  #     - 99be4c9
+  # fix_wrong_q_count_issue_151:
+  #   commits:
+  #     - 69dbb66
+  # Remove_elemented_and_standard_cases_issue_53:
+  #   commits:
+  #     - dfe7b37
+  #     - a13f505
+  # Standardisation_of_predefined_types_for_system_fittings_issue_142:
+  #   commits:
+  #     - b177d34
+  # Pset_ChamberCommon_Name_not_specific_enough_issue_401:
+  #   commits:
+  #     - d696699
+  # Remove_dot_after_UNSET:
+  #   description: Also present in original import https://github.com/bSI-InfraRoom/IFC-Specification/blob/develop/IFC4x3/PropertyConstants/u/UNSET._2mrnf_EXf3GOi4NxnyTnaa.xml
+  #   commits:
+  #     - b59e570
+  # Postfix_Sine_and_Cosine_with_Spiral_issue_397:
+  #   commits:
+  #     - 3797fb5
+  # pset_occurencedriven_for_psets_associated_to_objects_without_corresponding_ifctypeobject_issue_25:
+  #   commits:
+  #     - 38c1962
+  # AcousticRating_FireRating_OpeningCommon_issue_38:
+  #   commits:
+  #     - 0dc3f1b
+  # ElevationOfSSLRelative_and_FFL_issue_36:
+  #   commits:
+  #     - 07227fb
+  #     - 2177f5f
+  # Pset_MaterialSteel_StructuralGrade_issue_30:
+  #   commits:
+  #     - 2fbb503
+  # consistent_use_of_the_word_Colour_issue_107:
+  #   commits:
+  #     - f20add7
+  # Remove_IfcReferent_RestartDistance_issue_304:
+  #   commits:
+  #     - "2520877"
+  # Rename_Pset_FastenerWeld_single-letter_properties_issue_301:
+  #   commits:
+  #     - 8501dfd
+  #     - f4dc91a
+  # Fix_NetHeigtht_typo_issue_360:
+  #   commits:
+  #     - d49bf85
+  # Remove_WarrantyEndDate_issue_54:
+  #   commits:
+  #     - 0d32243
+  # align_to_X3D_and_glTF_add_PHYSICAL_reflectance_model:
+  #   commits:
+  #     - 3ae1554:
+  #       - file: IFC.exp
+  # Associate_qsets_without_applicability_issue_281:
+  #   commits:
+  #     - 0a58e43
+  # Remove_IfcWindowStyle_IfcDoorStyle_issue_75:
+  #   commits:
+  #     - a9ccaec
+  # Rename_PLAINTRACKSUPESTRUCTURE_to_PLAINTRACKSUPERSTRUCTURE_issue_251:
+  #   commits:
+  #     - c480a0e
+  # Pset_Bearing_typo_Accomodated_issue_159:
+  #   commits:
+  #     - 86b54f1
+  # IfcFacilityPart_issue_90:
+  #   description: Remove the modeling pattern of select of enumeration for predefined type
+  #   commits:
+  #     - 0b160a6
+  #     - e24a6a9
+  #     - aa35433
+  #     - 76ce092
+  #     - c7f91a1
+  #     - 239b841
+  # IfcProperty_12006:
+  #   description: Rename the attribute for compatibility of facilitating 12006
+  #   commits:
+  #     - a17c458
+  #     - 15e36b0  
+  # Pset_Tileing:
+  #   description: Pset for tiling properties, covering and pavement
+  #   commits:
+  #     - a1b3245
+  # IfcVegetation:
+  #   description: Original name of IfcPlant was deemed too confusing considering the use of plant as a facility
+  #   commits:
+  #     - 3a76581
+  # Pset_SignCommon:
+  #   description: Pset for signage
+  #   commits:
+  #     - 4b831e0:
+  #       - file: Pset_SignCommon.xml
+  # IfcBuiltElementProxy:
+  #   description: Naming consistency. There is the desire to keep the entity and undeprecate.
+  #   commits:
+  #     - 59cf1ef:
+  #       - hunk: Proxy
+  #     - f8bb7b4
+  # Pset_Address:
+  #   description: IfcPostalAddress was too buried in the schema to facilitate widespread use. This is not completed. Entity should be deprecated instead of deleted. Telecom address is not handled yet.
+  #   commits:
+  #     - c1010c1:
+  #       - hunk: Address
+  #     - 1b9d40d
+  #     - 4718b07:
+  #       - hunk: Address
+  #     - a6c9921
+  # IfcProxy:
+  #   commits:
+  #     - a47f52d
+  # IfcVirtualElement_provision_for_void:
+  #   description: Handle provisions by means of virtual elements
+  #   commits:
+  #    - 20aac5a:
+  #      - hunk:
+  #        - Virtual
+  #        - Provision
+  #    - 46d926d:
+  #      - hunk:
+  #        - CLEARANCE
+  # IfcMaterial_ComplexProperties:
+  #   description: Remodel what is currently expressed as complex properties.
+  #   commits:
+  #     - 20aac5a:
+  #       - file:
+  #         - Material
+  #         - Mechanical
+  # ReferencedByPlacements:
+  #   description: Add inverse
+  #   commits:
+  #     - 0b96fb1
+  # MEP_Element_Psets:
+  #   description: Changes to MEP element property sets
+  #   commits:
+  #     - 91b22b3
+  # Space_MEP_psets:
+  #   description: Changes to MEP space property sets
+  #   commits:
+  #     - 7587f2a
+  #     - 23d8726
+  # Psets_without_applicability:
+  #   description: Fix some properties without an applicability
+  #   commits:
+  #     - 1dc1c09  
+  # IfcCountMeasure:
+  #   description: Model all NumberOf_ and _Count properties as IfcCountMeasure
+  #   commits:
+  #     - b453146
+  # Property_normalization:
+  #   description: Schema changes resulting from a spec-wide normalization and harmonization pass
+  #   commits:
+  #     - 0637fd9:
+  #       - file: IFC.exp
+  # General_property_set_fixes:
+  #   commits:
+  #     - 4e39cd8
+  # IfcGroup_ReferencedInStructures:
+  #   commits:
+  #     - 99b25c0:
+  #       - hunk: IfcGroup
+  # Closed_attribute_on_supertype:
+  #   commits:
+  #     - 99b25c0:
+  #       - hunk: Closed
+  # PolygonalFaceset_texture:
+  #   description: Work in progress still. Set will be changed back to LIST.
+  #   commits:
+  #     - 99b25c0:
+  #       - hunk:
+  #         - IndexedPolygonal
+  #         - TextureCoordinateIndices
+  #     - 1cf9671
+  #     - 5df4998
+  #     - d3450cb
+  #     - 19eb435
+  # FacilityManagementHandover_Psets:
+  #   commits:
+  #     - 513b0f7:
+  #       - file: Pset_Construction
+  # IfcTaskTypeEnum_items:
+  #   commits:
+  #     - 0af3c91
+  #
+
+
+  
+  jwg12_ifc4_style_where_rules:
+    description: Correct usage of Window|Door Style in WR
+    commits:
+      - 429d247
+  jwg12_remove_ifc4_unused_definition:  
+    description: Remove Window|Door Style Construction|Operation Enum as no longer being referenced
+    commits:
+      - e16f3a9
+  jwg12_revert_deletion_of_reducer:  
+    description: Add back IfcCableCarrierFittingTypeEnum.REDUCER
+    commits:
+      - 8a37ae3
+  jwg12_ifc4_IfcBuildingSystemTypeEnum:  
+    description: Revert IfcBuildingSystemTypeEnum to IFC4 state
+    commits:
+      - d7727d0
+  jwg12_ifc4_door_types_compatibility:
+    description: Revert door type enum item renames
+    commits:
+      - 9d6bd56
+  jwg12_remove_duplicate_rules:  
+    description: Remove HasObjectType rules that are covered by autogenerated CorrectPredefinedType rules
+    commits:
+      - ba2c224
+  jwg12_revert_closed_attribute_change:  
+    description: Revert https://github.com/buildingSMART/IFC4.3.x-development/issues/8
+    commits:
+      - ad24eb4
+  jwg12_ifc4_IfcRelInterferesElements_compatibility:  
+    description: IfcRelInterferesElements compatibility IFC4
+    commits:
+      - 4226d07
+  
+  
+  
+  
+  
+  jwg12_Delete_IfcBearingTypeDisplacementEnum:
+    description: Delete unused type, see https://github.com/bSI-InfraRoom/IFC-Specification/issues/462
+    commits:
+      - 14b05af
+  jwg12_Unique_IfcPolygonalFaceset_Faces:
+    description: Make IfcPolygonalFaceset.Faces a unique list, as discussed. Ordering is required for colours. Set is semantically more fit. So unique list good compromise.
+    commits:
+      - 1a98c10
+  Small_rule_changes_from_IFC_Specification__281:
+    description: See https://github.com/bSI-InfraRoom/IFC-Specification/issues/281
+    commits:
+      - 10c0f2b
+  Pset_TransportElementElevator_applicability:
+    description: Applicability of PSet was too general
+    commits:
+      - 33f9ff4
+  PEnum_AddressType:
+    description: Referencing schema constructs from pset enums was deemed undesirable/inconsistent
+    commits:
+      - ffaf227
+  jwg12_IfcGetBasisSurface:
+    description: Changes where required to accomodate IfcSegment changes (affecting IfcCompositiveCurveOnSurface)
+    commits:
+      - 95bbedc
+      - 2d9fa43
+  jwg12_IfcSegment_Dim:
+    description: Move derived Dim attribute up to IfcSegment
+    commits:
+      - 7cb24fa:
+        - hunk: Segment
+  jwg12_IfcPoint_Dim:
+    description: Move derived Dim attribute up to IfcPoint
+    commits:
+      - d8cf00e
+      - 7cb24fa:
+        - hunk: Point
+      - 3cce4d0
+  jwg12_IfcRevolvedAreaSolid_AxisStartInXY:
+    description: Where rule fix due to more general point type usage in IfcPlacement
+    commits:
+      - 21cff04
+  jwg12_Remove_IfcGradient:
+    description: Unspecified function, to be reintroduced in new TC
+    commits:
+      - 7cc3915:
+        - hunk: Gradient
+  jwg12_IfcKerb_PredefinedType_and_Mountable:
+    description: Consistency of leaf entity classes
+    commits:
+      - 044e97b:
+        - hunk: 
+          - Kerb
+          - Mountable
+  jwg12_Add_IfcStrippedOptional:
+    description: Compatibility with IFC4 ISO version (and to be used for referencing deleted schema types)
+    commits:
+      - 77fb38f
+  jwg12_IfcBuildingElementProxyTypeEnum_changes:
+    description: Revert deletion of enum items into deprecation
+    commits:
+      - 322b5e2
+  jwg12_IfcIndexedPolyCurve_SelfIntersect_UML_change:
+    description: Revert change for compatibility with IFC4
+    commits:
+      - 6c4e7ef
+  Remove_IfcObjectTypeEnum:
+    description: Remove type only accesible to long deprecated usage. Also remove accompanying function, and change IfcRelAssigns. As discussed in https://github.com/bSI-InfraRoom/IFC-Specification/pull/465
+    commits:
+      - 64c7d3f
+  jwg12_IfcSweptDiskSolid_where_rule_Directrix_IfcIndexedPolyCurve:
+    description: IfcCurve has no attributes Segments
+    commits:
+      - a7fb8b6
