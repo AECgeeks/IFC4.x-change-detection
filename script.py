@@ -8,7 +8,9 @@ import subprocess
 
 from collections import defaultdict
 
+# pip install pyyaml
 import yaml
+# pip install unidiff==0.7.0
 import unidiff
 
 def run(*args, can_fail=False, decode='ascii', capture_output=True, **kwargs):
